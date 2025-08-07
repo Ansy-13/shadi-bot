@@ -1,5 +1,5 @@
 import os
-from agents import Agent, Runner, OpenAIChatCompletionsModel, RunConfig, function_tool, result
+from agents import Agent, Runner, OpenAIChatCompletionsModel, RunConfig, function_tool
 import chainlit as cl
 from openai import AsyncOpenAI
 from openai.types.responses import ResponseTextDeltaEvent
